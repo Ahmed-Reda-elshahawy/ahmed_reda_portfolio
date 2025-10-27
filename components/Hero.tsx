@@ -17,7 +17,7 @@ export default function Hero() {
             <article>
                 <Image src={myImg} alt="my picture" priority={true} className="w-32 h-32 rounded-full object-cover border-4 border-b-0 border-zinc-300 shadow-lg mx-auto" />
                 <h2 className="mt-3 mb-1 font-medium text-zinc-700 dark:text-zinc-100 text-xl tracking-wide">Ahmed Reda Fawzi</h2>
-                <h3 className="mb-4 font-medium text-zinc-500 dark:text-zinc-300">Frontend Developer</h3>
+                <h3 className="mb-4 font-medium text-zinc-500 dark:text-zinc-300">Full-Stack Developer</h3>
                 <p className="my-3 font-medium text-zinc-600 max-w-[50rem] mx-auto dark:text-zinc-300">
                     ″ <span className="font-bold text-zinc-700 dark:text-zinc-100">Full-Stack .NET Developer</span> with hands-on experience in developing and maintaining web
                     applications using .NET Core, Angular, SQL Server, and React. Able to work collaboratively in
