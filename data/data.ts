@@ -7,16 +7,12 @@ export const ProjectsData = [
 
     {
         id: 1,
-        title: "Financial Dashboard",
-        description: `simplified version of the financial dashboard that has:
-                    A public home page.
-                    A login page.
-                    Dashboard pages that are protected by authentication.
-                    The ability for users to add, edit, and delete invoices.`,
-        skills: ["Next Js", "Tailwind Css", "Css Modules", "TypeScript", "Form Actions"],
+        title: "Airbnb Clone",
+        description: `Collaborated with a team to replicate Airbnb’s core booking features. Built RESTFUL API, handled authentication.`,
+        skills: ["ASP.NET Core Web API", "EF Core", "SQL Server", "TypeScript", "Angular"],
         projectImg: "/4.png",
-        liveDemo: "https://myfinancial-dashboard.vercel.app/",
-        githupLink: "https://github.com/Ahmed-Reda-elshahawy/financial-dashboard"
+        liveDemo: "https://drive.google.com/drive/folders/17AWUSL5xTWIXaYgG_yu9C-fd9WwotfGl",
+        githupLink: "https://github.com/not-midozayn/Airbnb_Clone"
     },
     {
         id: 2,
@@ -74,17 +70,41 @@ export const Links = [
 ] as const;
 
 export const MySkills = [
-    "Html", "Css", "Tailwind css", "Sass", "JavaScript", "TypeScript", "React", "Next js", "Git", "Framer motion"
+    "Html", "Css", "Tailwind css", "Sass", "JavaScript", "TypeScript", "React", "Next js", "Git", "Angular", "C#", ".NET Core", "SQL Server", "Entity Framework", ".NET MVC", "Web API", "LINQ", "OOP", "SOLID Principles", "Design Patterns", "datastructures & algorithms"
 ] as const
 
 export const experiencesData = [
+    {
+        title: "ITI External Instructor",
+        location: "ITI Summer Training | Remote",
+        description:
+        "Delivering online structured training sessions on ASP.NET MVC for ITI students. Supported learners during lab, assigned coding exercises, and reviewed submissions.",
+        icon: React.createElement(CgWorkAlt),
+        date: "8 / 2025  -  9 / 2025",
+    },
+    {
+        title: "Freelance .NET Developer",
+        location: "Real Client | Remote",
+        description:
+        "Collaborated with a team of 5 developers to migrate a legacy .NET Web Forms system to an Asp.NET MVC with Clean Architecture .",
+        icon: React.createElement(CgWorkAlt),
+        date: "4 / 2025  -  5 / 2025",
+    },
+    {
+        title: "Full-Stack .NET Developer - Intensive Program",
+        location: "ITI Tanta Branch | Onsite",
+        description:
+        "Gained full-stack .NET fundamentals with practical experience in team leadership, collaboration, and presentations.",
+        icon: React.createElement(CgWorkAlt),
+        date: "12 / 2024  -  9 / 2025",
+    },
     {
         title: "ITI frontend trainee",
         location: "ITI Monofia branch",
         description:
         "Developed a responsive e-commerce website using HTML, CSS, Bootstrap, JavaScript, and React.",
         icon: React.createElement(CgWorkAlt),
-        date: "8 / 2022  -  9 / 2022",
+        date: "8 / 2022  -  4 / 2022",
     },
     {
         title: "ITI frontend trainee",

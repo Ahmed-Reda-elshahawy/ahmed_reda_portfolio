@@ -19,12 +19,9 @@ export default function Hero() {
                 <h2 className="mt-3 mb-1 font-medium text-zinc-700 dark:text-zinc-100 text-xl tracking-wide">Ahmed Reda Fawzi</h2>
                 <h3 className="mb-4 font-medium text-zinc-500 dark:text-zinc-300">Frontend Developer</h3>
                 <p className="my-3 font-medium text-zinc-600 max-w-[50rem] mx-auto dark:text-zinc-300">
-                    ″ <span className="font-bold text-zinc-700 dark:text-zinc-100">Recent Computer Science graduate and highly motivated Front-End Developer</span> with a strong focus on React development.
-                    I possess proven expertise in building responsive,
-                    user-friendly web applications using <span className="font-bold text-zinc-700 dark:text-zinc-100">React, Redux, Next.js, TypeScript, and unit testing. </span>
-                    Successfully developed a real-time chat application and a fully functional e-commerce site,
-                    demonstrating my proficiency in third-party integrations and complex state management.
-                    Eager to contribute to a dynamic and fast-paced environment while continuously advancing my technical skills and knowledge. ″
+                    ″ <span className="font-bold text-zinc-700 dark:text-zinc-100">Full-Stack .NET Developer</span> with hands-on experience in developing and maintaining web
+                    applications using .NET Core, Angular, SQL Server, and React. Able to work collaboratively in
+                    agile teams, deliver projects efficiently, and guide students as an External .NET Instructor at ITI. Passionate about clean code, problem-solving, and continuous learning. ″
                 </p>
             </article>
             <div className="flex flex-col items-center pt-12">
@@ -39,7 +36,7 @@ export default function Hero() {
                         <span>Contact me here</span>
                         <IoIosArrowForward />
                     </Link>
-                    <a href="/Ahmed_Reda-Frontend_React.pdf" download className="px-4 py-2 bg-zinc-300 text-zinc-800 rounded-xl flex items-center gap-2 hover:scale-105 transition-all">
+                    <a href="/AhmedReda_Fullstack.NET_CV.pdf" download className="px-4 py-2 bg-zinc-300 text-zinc-800 rounded-xl flex items-center gap-2 hover:scale-105 transition-all">
                         <span>Download CV</span>
                         <IoMdDownload />
                     </a>
